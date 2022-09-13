@@ -1,5 +1,11 @@
 import React from "react";
 
+import arrived1 from "../../assets/images/content/image-arrived-1.png";
+import arrived2 from "../../assets/images/content/image-arrived-2.png";
+import arrived3 from "../../assets/images/content/image-arrived-3.png";
+import arrived4 from "../../assets/images/content/image-arrived-4.png";
+import arrived5 from "../../assets/images/content/image-arrived-5.png";
+
 export default function Justarrived() {
   return (
     <section className="flex flex-col py-16">
@@ -35,7 +41,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-1.png")}
+                src={arrived1}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -67,7 +73,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-2.png")}
+                src={arrived2}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -99,7 +105,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-3.png")}
+                src={arrived3}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -131,7 +137,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-4.png")}
+                src={arrived4}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -163,7 +169,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-5.png")}
+                src={arrived5}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -195,7 +201,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src={require("../../assets/images/content/image-arrived-3.png")}
+                src={arrived3}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />
@@ -227,7 +233,7 @@ export default function Justarrived() {
                 </div>
               </div>
               <img
-                src="./images/content/image-arrived-1.png"
+                src={arrived1}
                 alt=""
                 className="w-full h-full object-cover object-center"
               />

@@ -1,5 +1,7 @@
 import React from "react";
 
+import imgSection1 from "../assets/images/content/image-section-1.png";
+
 export default function Hero() {
   return (
     <section className="flex items-center hero">
@@ -43,7 +45,7 @@ export default function Hero() {
             ></button>
           </div>
           <img
-            src={require("../assets/images/content/image-section-1.png")}
+            src={imgSection1}
             alt="hero 1"
             className="absolute inset-0 md:relative w-full h-full object-cover object-center"
           />
